@@ -1,7 +1,0 @@
-# Conclusiones de la Prueba de Carga
-
-- Se configuró el escenario en Apache JMeter con usuarios parametrizados desde un CSV.
-- Objetivo de carga: 20 TPS.
-- Validaciones: tiempo máximo 1.5s, error <3%.
-- Observaciones: algunos usuarios del CSV no están presentes en la API de prueba, lo que genera errores 401/400 para esos casos. Ajustar CSV con usuarios válidos para pruebas exitosas.
-- Estado: Prueba ejecutada; validar métricas en los listeners (Summary Report) para confirmar cumplimiento exacto.
