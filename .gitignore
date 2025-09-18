@@ -1,0 +1,10 @@
+# JMeter
+*.jtl
+*.log
+/results/
+*.tmp
+
+# IDEs / macOS
+.DS_Store
+.vscode/
+.idea/
